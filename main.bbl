@@ -1,0 +1,44 @@
+\begin{thebibliography}{1}
+
+\bibitem{fu_high_2021}
+Cong Fu, Changxu Wang, and Deng Cai.
+\newblock High dimensional similarity search with satellite system graph:
+  Efficiency, scalability, and unindexed query compatibility.
+\newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 44(8):4139--4150,
+  2022.
+
+\bibitem{fu_fast_2018}
+Cong Fu, Chao Xiang, Changxu Wang, and Deng Cai.
+\newblock Fast approximate nearest neighbor search with the navigating
+  spreading-out graph.
+\newblock {\em Proc. {VLDB} Endow.}, 12(5):461--474, 2019.
+
+\bibitem{harwood_fanng_2016}
+Ben Harwood and Tom Drummond.
+\newblock {FANNG}: {Fast} {Approximate} {Nearest} {Neighbour} {Graphs}.
+\newblock In {\em 2016 {IEEE} {Conference} on {Computer} {Vision} and {Pattern}
+  {Recognition} ({CVPR})}, pages 5713--5722, Las Vegas, NV, USA, June 2016.
+  IEEE.
+
+\bibitem{li_approximate_2016}
+Wen Li, Ying Zhang, Yifang Sun, Wei Wang, Mingjie Li, Wenjie Zhang, and Xuemin
+  Lin.
+\newblock Approximate nearest neighbor search on high dimensional data -
+  experiments, analyses, and improvement.
+\newblock {\em {IEEE} Trans. Knowl. Data Eng.}, 32(8):1475--1488, 2020.
+
+\bibitem{malkov_efficient_2018}
+Yury~A. Malkov and Dmitry~A. Yashunin.
+\newblock Efficient and robust approximate nearest neighbor search using
+  hierarchical navigable small world graphs.
+\newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 42(4):824--836,
+  2020.
+
+\bibitem{peng_efficient_2018}
+Yun Peng, Byron Choi, Tsz~Nam Chan, Jianye Yang, and Jianliang Xu.
+\newblock Efficient {Approximate} {Nearest} {Neighbor} {Search} in
+  {Multi}-dimensional {Databases}.
+\newblock {\em Proc. the ACM SIGMOD International Conference on Management of
+  Data (SIGMOD '23)}, June 2023.
+
+\end{thebibliography}

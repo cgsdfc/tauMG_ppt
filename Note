@@ -1,0 +1,44 @@
+# frame 1
+Good morning professors, I am Feng Cong, a B.Eng. of BUAA and an M.Eng. candidate of HRBUST.
+Today, I am going to give a brief talk about the tauMG paper.
+
+# frame 2 outline
+Here is the outline of this talk. First, I am going to provide some background of ANNS.
+Then let's look at the main idea of tauMG. Finally, it's about some personal insights that I gained from the paper
+and some questions about the paper that might sound interesting.
+
+# frame 3 the values and challenges of ANNS
+So first of all, let's look at the values and challenges of ANNS, aka, the approximate nearest neighbor search.
+ANNS has many applications such as information retrieval of images, documents, songs, machine learning, and recommendation systems.
+So, it has many valuable applications and it is also a fundamental search technique.
+And the challenges of ANNS. First, it has to face the growing size of real-world databases. Second, the curse of dimentionality causes
+data sparsity in high-dimentional space. Finally, there are many tradeoffs when designing an ANNS algorithm.
+For example, you have to balance search and index complexities, time and space complexities, and accuracy versus latency.
+
+# frame 4 the problem setting and taxology of ANNS
+So here is the formal definition of the ANNS problem. We have a database D of n points and a query q in the space.
+And we want to efficiently find vbar, the approximate nearest neighbor of q from the database. Note that vbar does not
+have to be the exact nearest neighbor. It just needs to be close enough.
+
+And so far, these existing ANNS methods can be classified into four categories. We have tree-based methods, such as KD-tree and Ball-tree.
+We also have hashing-based, quantization-based, and proximity graph-based, aka, PG-based.
+
+# frame 5 The drawback of existing ANNS methods
+However, there are some drawbacks with the existing ANNS methods.
+First, let's look at the drawbacks of non PG methods.
+For example, tree-based and hashing-based methods tend to scatter the neighborhood of a node into many cells,
+which causes them to check more points during a search.
+This figure illustrates an example where these two kinds of methods check a lot more points than the PG-based methods.
+
+# frame 6 The drawbacks of existing ANNS methods
+And for PG methods, some of them lack an error guarantee or search complexity guarantee.
+Others set an impractical assumption that the query q is in the database, such as MRNG.
+This figure shows a failure case of MRNG when q is not in the database.
+Finally, all of the existing PG methods has a high search time complexity due to a long path length.
+
+# frame 7 Contributions of the τ -MG paper
+To solve the above issues, first, the tauMG paper proved the length of any greedy routing path in a PG is big O
+n to the power of 2 divided by m times log n with a great probability.
+Then, a new PG called tau-MG and a corresponding greedy routing algorithm are proposed, which guarantee to find vbar in
+time n to the power of m to the minus one given delta q vbar smaller than tau.
+
